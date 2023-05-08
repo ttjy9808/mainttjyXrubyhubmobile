@@ -305,3 +305,20 @@ for i,v in pairs(game:GetService("Workspace").Heists.Ship.Ship:GetChildren()) do
    end
 end 
 end)
+
+local Teleport = Win:CreateTab("Teleport",function() warn(i) end)
+
+Teleport:CreateButton("Criminal Base",function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/ttjy9808/tp-to-criminal-base/main/README.md'))()
+end)
+
+
+
+
+
+
+
+
+
+
+
