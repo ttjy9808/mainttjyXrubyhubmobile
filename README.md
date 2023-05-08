@@ -223,4 +223,65 @@ for i,v in pairs(game:GetService("Workspace").Heists.Club.Level2.Items:GetChildr
 end
 end)
 
+Removelaser:CreateButton("Bank",function()
+for i,v in pairs(game:GetService("Workspace").Heists.Bank.Items.Chunk.Mint.Builds:GetChildren()) do 
+   if v.Name == "GreenLaser" then
+       for a,b in pairs(v:GetChildren()) do
+           b:Destroy()
+       end
+   end
+end
+		for i,v in pairs(game:GetService("Workspace").Heists.Bank.Items.Chunk.Mint.RoomB:GetChildren()) do 
+   if v.Name == "GreenLasers" then
+       for a,b in pairs(v:GetChildren()) do
+           b:Destroy()
+       end
+   end
+end
+		for i,v in pairs(game:GetService("Workspace").Heists.Bank.Items.Chunk.Mint.RoomB:GetChildren()) do 
+   if v.Name == "Lasers" then
+       for a,b in pairs(v:GetChildren()) do
+           b:Destroy()
+       end
+   end
+end 
 
+		for i,v in pairs(game:GetService("Workspace").Heists.Bank.Items.Chunk.Mint.RoomB:GetChildren()) do 
+   if v.Name == "WallBeam" then
+       for a,b in pairs(v:GetChildren()) do
+           b:Destroy()
+       end
+   end
+end 
+		for i,v in pairs(game:GetService("Workspace").Heists.Bank.Items.Chunk.Mint.RoomB.Model:GetChildren()) do 
+   if v.Name == "WallBeam" then
+       for a,b in pairs(v:GetChildren()) do
+           b:Destroy()
+       end
+   end
+end 
+end)
+
+Removelaser:CreateButton("Casino",function()
+for i,v in pairs(game:GetService("Workspace").Heists.Casino.Stealthy.Items:GetChildren()) do 
+   if v.Name == "Detectors" then
+       for a,b in pairs(v:GetChildren()) do
+           b:Destroy()
+       end
+   end
+end 
+			for i,v in pairs(game:GetService("Workspace").Heists.Casino.Stealthy.Items:GetChildren()) do 
+   if v.Name == "MovingLasers" then
+       for a,b in pairs(v:GetChildren()) do
+           b:Destroy()
+       end
+   end
+end 
+			for i,v in pairs(game:GetService("Workspace").Heists.Casino.Items:GetChildren()) do 
+   if v.Name == "Lasers" then
+       for a,b in pairs(v:GetChildren()) do
+           b:Destroy()
+       end
+   end
+end 
+end)
