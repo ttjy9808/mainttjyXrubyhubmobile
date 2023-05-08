@@ -13,7 +13,7 @@ for i,v in next, getgc(true) do
             end
 end)
 
-Main:CreateButton("ServerHop"..i,function()
+Main:CreateButton("ServerHop",function()
 local cmdlp = game.Players.LocalPlayer
 rejoining = true
             local Decision = "any"
