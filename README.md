@@ -1,9 +1,8 @@
 local Lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/InfinitiveUI",true))()
 local Win = Lib:CreateWindow("ah",1,nil,nil)
 
-for i = 1, 16 do
+local Main = Win:CreateTab("Main",function() warn(i) end)
 
-local Main,name = Win:CreateTab("Main",function() warn(i) end)
 Main:CreateButton("Instance E/Press",function()
 for i,v in next, getgc(true) do
                 if type(v) == "table" and rawget(v, "ID") and rawget(v, "Seconds") then
@@ -13,7 +12,8 @@ for i,v in next, getgc(true) do
                 end
             end
 end)
-Tab:CreateButton("ServerHop"..i,function()
+
+Main:CreateButton("ServerHop"..i,function()
 local cmdlp = game.Players.LocalPlayer
 rejoining = true
             local Decision = "any"
@@ -44,7 +44,7 @@ rejoining = true
             rejoining = false
 end)
 
-local heist = Win:CreateTab("heist status/level",function() warn(i) end)
+local Heist = Win:CreateTab("heist status/level",function() warn(i) end)
 heist:CreateButton("DONT SUPPORT WITH THIS UI",function()
 print("doesnt support mobile")
 end)
