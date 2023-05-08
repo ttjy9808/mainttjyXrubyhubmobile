@@ -179,5 +179,48 @@ end
 end
 end)
 
+Removelaser:CreateButton("Pyramid level2",function()
+for i,v in pairs(game:GetService("Workspace").Heists.Pyramid.Level2:GetChildren()) do 
+   if v.Name == "Flamethrowers" then
+       for a,b in pairs(v:GetChildren()) do
+           b:Destroy()
+       end
+   end
+end
+for i,v in pairs(game:GetService("Workspace").Heists.Pyramid.Level2:GetChildren()) do 
+   if v.Name == "Lava" then
+       for a,b in pairs(v:GetChildren()) do
+           b:Destroy()
+       end
+   end
+end
+for i,v in pairs(game:GetService("Workspace").Heists.Pyramid.Level2:GetChildren()) do 
+   if v.Name == "PressurePlates" then
+       for a,b in pairs(v:GetChildren()) do
+           b:Destroy()
+       end
+   end
+end
+end)
+
+Removelaser:CreateButton("Club Level1",function()
+for i,v in pairs(game:GetService("Workspace").Heists.Club.Level1.Items:GetChildren()) do 
+   if v.Name == "Lasers" then
+       for a,b in pairs(v:GetChildren()) do
+           b:Destroy()
+       end
+   end
+end
+end)
+
+Removelaser:CreateButton("Club Level2",function()
+for i,v in pairs(game:GetService("Workspace").Heists.Club.Level2.Items:GetChildren()) do 
+   if v.Name == "LaserWalls" then
+       for a,b in pairs(v:GetChildren()) do
+           b:Destroy()
+       end
+   end
+end
+end)
 
 
