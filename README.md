@@ -2,7 +2,7 @@ local Lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/R
 local Win = Lib:CreateWindow("ah",1,nil,nil)
 
 local Main = Win:CreateTab("Main",function() warn(i) end)
-Main:CreateButton("Instance E/Press",function()
+Main:CreateButton("Instance E/Press"..i,function()
 for i,v in next, getgc(true) do
                 if type(v) == "table" and rawget(v, "ID") and rawget(v, "Seconds") then
                     if typeof(v.Seconds) == "number" then
