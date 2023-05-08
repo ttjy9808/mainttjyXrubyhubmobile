@@ -312,6 +312,53 @@ Teleport:CreateButton("Criminal Base",function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/ttjy9808/tp-to-criminal-base/main/README.md'))()
 end)
 
+Teleport:CreateButton("Prison",function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/ttjy9808/tp-to-prison/main/README.md'))()
+end)
+
+Teleport:CreateButton("Jewelry",function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/ttjy9808/teleport-to-jew/main/README.md'))()
+end)
+
+Teleport:CreateButton("Bank",function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/ttjy9808/tp-to-bank/main/README.md'))()
+end)
+
+Teleport:CreateButton("Casino",function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/ttjy9808/tp-to-casino/main/README.md'))()
+end)
+
+Teleport:CreateButton("Criminal Base",function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/ttjy9808/tp-to-criminal-base/main/README.md'))()
+end)
+
+Teleport:CreateButton("Club",function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/ttjy9808/tp-to-club/main/README.md'))()
+end)
+
+Teleport:CreateButton("Pyramid",function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/ttjy9808/tp-to-pyramid/main/README.md'))()
+end)
+
+Teleport:CreateButton("Gun store",function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/ttjy9808/tp-tp-gun-store/main/README.md'))()
+end)
+
+Teleport:CreateButton("Airport",function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/ttjy9808/tp-to-airport/main/README.md'))()
+end)
+
+Teleport:CreateButton("Apple Store",function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/ttjy9808/apple-store/main/README.md'))()
+end)
+
+local RubyHub = Win:CreateTab("Ruby Hub",function() warn(i) end)
+
+Main:CreateButton("RUBY HUB DOESN'T SUPPORT MOBILE",function()
+print("")
+end)
+
+
 
 
 
