@@ -361,9 +361,12 @@ end)
 local Autorob = Win:CreateTab("Auto Rob",function() warn(i) end)
 
 Autorob:CreateButton("small rob",function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/ttjy9808/manual-small-rob-un-obf/main/README.md'))()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/ttjy9808/manual-small-rob-un-obf/main/README.md'))()
 end)
 
+Autorob:CreateButton("small rob instance E/Press",function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/ttjy9808/small-auto-rob-no-hop-unobf-but-instance-E/main/README.md'))()
+end)
 
 
 
