@@ -368,6 +368,22 @@ Autorob:CreateButton("small rob instance E/Press",function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/ttjy9808/small-auto-rob-no-hop-unobf-but-instance-E/main/README.md'))()
 end)
 
+Autorob:CreateButton("Pyramid(PATCH)",function()
+	print("")
+end)
+
+Autorob:CreateButton("Pyramid instance E/Press (PATCH)",function()
+	print("")
+end)
+
+Autorob:CreateButton("Club",function()
+	if workspace.Heists.Club:FindFirstChild("Level1") or orkspace.Heists.Club:FindFirstChild("Level2") or orkspace.Heists.Club:FindFirstChild("Level3") then
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/ttjy9808/auto-rob-club-FIX-no-hop-unobf/main/README.md'))()
+	else
+	print("")
+	end
+end)
+
 
 
 
