@@ -11,8 +11,7 @@ for i,v in next, getgc(true) do
                 end
             end
 end)
-Main:CreateButton("ServerHop",function()
-for i,v in next, getgc(true) do
+Tab:CreateButton("ServerHop"..i,function()
 local cmdlp = game.Players.LocalPlayer
 rejoining = true
             local Decision = "any"
@@ -40,10 +39,10 @@ rejoining = true
                 print("")
             end
             wait(3)
-rejoining = false
+            rejoining = false
 end)
 
 local heist = Win:CreateTab("heist status/level",function() warn(i) end)
-heist:CreateButton("DONT SUPPORT",function()
+heist:CreateButton("DONT SUPPORT WITH THIS UI",function()
 print("doesnt support mobile")
 end)
