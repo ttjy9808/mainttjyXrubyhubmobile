@@ -354,8 +354,14 @@ end)
 
 local RubyHub = Win:CreateTab("Ruby Hub",function() warn(i) end)
 
-Main:CreateButton("RUBY HUB DOESN'T SUPPORT MOBILE",function()
+RubyHub:CreateButton("RUBY HUB DOESN'T SUPPORT MOBILE",function()
 print("")
+end)
+
+local Autorob = Win:CreateTab("Auto Rob",function() warn(i) end)
+
+Autorob:CreateButton("small rob",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ttjy9808/manual-small-rob-un-obf/main/README.md'))()
 end)
 
 
