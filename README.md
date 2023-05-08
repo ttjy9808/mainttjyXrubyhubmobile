@@ -285,3 +285,23 @@ end
    end
 end 
 end)
+
+Removelaser:CreateButton("Plane",function()
+for i,v in pairs(game:GetService("Workspace").Heists.Plane.Plane:GetChildren()) do 
+   if v.Name == "Lasers" then
+       for a,b in pairs(v:GetChildren()) do
+           b:Destroy()
+       end
+   end
+end 
+end)
+
+Removelaser:CreateButton("Ship",function()
+for i,v in pairs(game:GetService("Workspace").Heists.Ship.Ship:GetChildren()) do 
+   if v.Name == "Turrets" then
+       for a,b in pairs(v:GetChildren()) do
+           b:Destroy()
+       end
+   end
+end 
+end)
