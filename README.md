@@ -368,8 +368,12 @@ Autorob:CreateButton("small rob instance E/Press",function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/ttjy9808/small-auto-rob-no-hop-unobf-but-instance-E/main/README.md'))()
 end)
 
-Autorob:CreateButton("Pyramid(PATCH)",function()
+Autorob:CreateButton("Pyramid (level1)",function()
+	if workspace.Heists.Pyramid:FindFirstChild("Level1") then
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/ttjy9808/autorobpyramidmanualnohopunobf/main/README.md'))()
+	else
 	print("")
+	end
 end)
 
 Autorob:CreateButton("Pyramid instance E/Press (PATCH)",function()
