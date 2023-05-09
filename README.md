@@ -381,7 +381,7 @@ Autorob:CreateButton("Pyramid instance E/Press (PATCH)",function()
 end)
 
 Autorob:CreateButton("Club",function()
-	if workspace.Heists.Club:FindFirstChild("Level1") or orkspace.Heists.Club:FindFirstChild("Level2") or orkspace.Heists.Club:FindFirstChild("Level3") then
+	if workspace.Heists.Club:FindFirstChild("Level1") or workspace.Heists.Club:FindFirstChild("Level2") or workspace.Heists.Club:FindFirstChild("Level3") then
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/ttjy9808/auto-rob-club-FIX-no-hop-unobf/main/README.md'))()
 	else
 	print("")
